@@ -1,0 +1,16 @@
+#message-container {
+  position: fixed; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.65); /* 设置背景透明度为65% */
+  border: 2px solid rgba(0, 0, 0, 0.65); /* 边框颜色及透明度 */
+  padding: 20px; 
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 800px; /* 可以设置固定宽度 */
+  height: auto; /* 高度可以根据内容自动调整 */
+}
+.alert-message {
+  text-align: center;
+}

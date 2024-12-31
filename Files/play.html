@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主题影音</title>
+    <link rel="icon" type="image/png" href="../images/图标.png">
+    <link rel="stylesheet" type="text/css" href="../CSS/play.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="power.html">强力角色推荐</a></li>
+                <li><a href="power_detail.html">意识手册</a></li>
+                <li><a href="boss.html">BOSS信息</a></li>
+                <li><a href="picture.html">游戏壁纸</a></li>
+                <li><a href="play.html">主题影音</a></li>
+                <li><a href="search.html">搜索</a></li>
+                <li><a href="join.html">加入我们</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>正在播放</h2>
+            <audio controls id="audio-player">
+                <source src="../images/盘旋.mp3" type="audio/mpeg">
+            </audio>
+            <button class="switch-button" onclick="switchSong()">切换歌曲</button>
+            <div>
+                <h3 id="song-title">盘旋（英文版）</h3>
+            </div>
+            <div class="lyrics-container">
+                <div class="lyrics-column">
+                </div>
+                <div class="lyrics-column">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2018广州库洛科技有限公司</p>
+    </footer>
+
+    <script src="../JS/play.js"></script>
+</body></html>
